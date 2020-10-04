@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    /* filter: blur(0); */
+}
+
+body,html{
+    height: 100vh;
+}
+
+.bg__container{
+    min-height: 100vh;
+    width: 100vw;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./pexels-eyüp-belen-1428607.jpg')center/cover no-repeat fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login__container{
+
+   width: 450px;
+   height: 365px;
+   background:linear-gradient(rgba(32, 32, 32, 0.5),rgba(29, 28, 28, 0.5));
+   padding: 35px;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   box-shadow: 0px 0px 8px rgb(54, 52, 52);
+   filter: blur(0.3px) !important;
+   
+
+}
+
+@media(max-width:500px){
+    .login__container{
+        width: initial;
+        height: initial;
+    }
+    .bg__container{
+         background-position-x: -227.7px;
+    }
+}
+
+
+
+.login__container h2{
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-size: 1.75rem;
+    color: white;
+    filter: blur(0) !important;
+}
+
+
+input[type='text'],input[type='password']{
+
+ outline: none;
+ background: white;
+ padding: 8px;
+ margin-top: 15px;
+ border-radius: 5px;
+ font-size: 1rem;
+ color: rgb(32, 28, 28);
+ font-weight: 600;
+ 
+}
+ 
+
+::placeholder{
+    color: rgb(167, 157, 157);
+}    
+
+
+.check__container{
+    margin-top: 13px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}    
+
+.check__container span{
+    font-size: 13px;
+    margin-left: 11px;
+    color: white;
+}    
+.check__container span a{
+    color: darkgray;
+    text-decoration: underline;
+}    
+
+input[type='checkbox']{
+    -webkit-appearance:none;
+    width: 22px;
+    height: 22px;
+    background: #c2b2b2;
+    border-radius: 5px;
+    border: 0.6px solid #555;
+    margin-left: 10px;
+    outline: none;
+    /* margin-top: 9px; */
+}    
+
+input[type='checkbox']:checked {
+    background: #abd;
+}
+
+
+input[type='submit']{
+    padding: 8.5px;
+    background-color: rgb(247, 86, 28);
+    color: white;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
